@@ -1,5 +1,183 @@
-body {
-    font-size: 16px;
-    color: aliceblue;
-    background-color: #61122f;
+* {
+    box-sizing: border-box;
 }
+
+.div-layer {
+    background-color: rgba(32, 21, 239, .6);
+    border-radius: 5% 5% 0% 0%;
+}
+
+body {
+    overflow: scroll;
+    text-align: center;
+    display: block;
+    border-radius: 5%;
+}
+
+.site-container {
+    width: auto;
+    height: 100%;
+    background: url(https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Home_Alone_House.jpg/540px-Home_Alone_House.jpg);
+    margin: 0;
+    padding: 0;
+    border-radius:5px;
+    background-repeat: round;
+    background-size: contain;
+    position: relative;
+}
+
+.header {
+    border-radius: 5%;
+    width: 100%;
+    height: 100px;    
+    padding: 0px;
+    margin: 0 10px 0 0;
+}
+
+.h-container {
+    width: 100%;
+    border-radius: 5%;
+}
+
+.site-logo img{
+    width: 80px;
+    height: auto;
+    float: left;
+}
+
+.top-nav {
+    border: 1px solid black;
+    margin: 0;
+    padding: 0 20px 0 0;
+    width: 100%;
+    background-color: bisque;
+    border-radius: 5% 5% 0% 0%;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.top-selector {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: x-large;
+    margin: 0 13%;
+    border-radius: 11px;
+}
+
+.top-selector:hover {
+    background-color: aqua;
+}
+
+.top-banner {
+    height: 15vh;
+    padding-top: 0;
+    margin-top: -15px;
+}
+
+.banner-header {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    
+}
+
+.mid{
+     width: 100%;
+     height: auto;
+     display: flex;
+}
+
+.arrow {
+    width: 20%;
+    rotate: -180deg;
+}
+
+#easy-img {
+    width: 20%;   
+}
+
+#buy-button {
+    margin: 19px 2px;
+}
+
+#headshot {
+    margin: 5px 10px;
+    size-adjust: calc(auto);
+}
+
+.mid-image {
+    
+}
+
+.search-bar {
+    width: 36%;
+    height: fit-content;
+    text-decoration: none;
+    padding: 0;
+    margin: 25px;
+    background-color: rgb(32, 21, 239);
+}
+
+form {
+    text-align: left;
+}
+
+.low-mid {
+    text-align: center;
+}
+
+span {
+    color: antiquewhite;
+    font-weight: 900;
+    font-stretch: extra-expanded;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+    font-size: xx-large;
+    width: auto;
+}
+
+span:hover {
+    cursor: auto;
+}
+
+#home-value-img {
+    width: 50%;
+}
+
+#about-back {
+    background-color: rgba(7, 7, 180, 0.402);
+    width: 100%;
+    height: 140vh;
+    margin: 0 auto;
+    display: flex;
+}
+
+#about-holder {
+    width: 25%;
+    height: 100vh;
+    margin-left: 15%;
+}
+
+p {
+    columns: 1;
+    font-size: 20px;
+    text-align: left;
+}
+
+#contact {
+    width: 50%;
+    height: auto;
+    background-color: azure;
+    margin-top: 20px;
+}
+
+footer {
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
