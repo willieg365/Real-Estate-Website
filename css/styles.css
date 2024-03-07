@@ -19,7 +19,6 @@
 body {
     overflow: scroll;
     text-align: center;
-    display: block;
 }
 
 .site-container {
@@ -63,7 +62,7 @@ body {
     border-radius: 2% 2% 0% 0%;
 }
 
-ul {
+.top-nav ul {
     list-style: none;
     display: flex;
     justify-content: space-between;
@@ -181,6 +180,13 @@ footer {
     background-color: #2015ef;
 }
 
+footer ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+}
+
 .bottom-nav {
     width: 100%;
     padding: 10px 20px;
@@ -244,6 +250,7 @@ footer {
 #contact {
     height: fit-content;
     margin-left: 15%;
+    padding: 10px 0;
 }
 
 #contact > * {
@@ -266,6 +273,7 @@ footer {
 .form {
     max-width: 400px;
     text-align: center;
+    
 }
 
 label {
@@ -285,4 +293,65 @@ fieldset {
     margin: 0 auto;
     padding: 10px;
     max-width: 750px;
+}
+
+#family-pic {
+    width: 30vw;
+}
+
+/*sell*/
+
+#sell-back {
+    height: fit-content;
+    margin: 0;
+    padding: 0;
+    background-color: var(--purple);
+}
+
+#shadow > *{
+    margin: 0 auto;
+    padding: 5px 0;
+    max-width: 750px;
+}
+
+#sell-mid {
+    display: inline-flex;
+}
+
+#cma-info {
+    text-align: left;
+    padding: 5px;
+}
+
+#br {
+    width: 30vw;
+    height: 1vh;
+    background-color: #2015ef;
+    margin-left: 25px;
+}
+
+#cma-ul {
+    font-size: larger;
+    list-style: square;
+    justify-content: space-between;
+}
+
+#cma-button {
+    height: fit-content;
+    padding: 10px;
+}
+
+.cma-button {
+    height: 200px;
+    padding: 10px;
+    background: linear-gradient(
+        45deg,
+        var(--purple),
+        teal,
+        red
+    );
+}
+
+.cma-button:hover {
+    cursor: pointer;
 }
