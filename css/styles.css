@@ -162,13 +162,11 @@ span:hover {
 
 #about-holder {
     height: fit-content;
-    margin-left: 15%;
+    margin:0 auto;
 }
 
 #about-holder > p {
-    columns: 1;
-    column-width: 33%;
-    font-size: 20px;
+    max-width: 800px;
     text-align: left;
 }
 
