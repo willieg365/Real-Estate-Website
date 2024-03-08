@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/styles.css">
-    <title>Contact</title>
+    <title>Buy</title>
 </head>
 <body>
     <header class="header">
@@ -25,51 +25,61 @@
       <div class="top-banner">
           <img id="p-logo" src="w2.png" alt="personalised- logo">   
       </div>
-      <div id="c-container">
-      <div id="contact">
-        <h2>Need To Speak With An Experienced Real Estate Broker?</h2>
-        <br>
-        <h1>Contact Willie Garcia, REALTOR®</h1>
-        <br>
-        <p>I am always happy to help, please call or text anytime!</p>
-        <br>
-        <h3>Willie Garcia, REALTOR®<br>
-            <p>Kale Realty</p>
-        </h3>
-        <h3>Direct: 815.483.8167</h3>
-        <h3>Email: wgarcia@kale.realtor</h3>
-        <h2>I Am Never To Busy For Your Referrals!</h2>
-            <p>I understand the importance of protecting your contact information. I will never share or sell your private contact information with a third party. Click here to view my privacy policy. Your privacy is my primary concern.</p>
-        
+      <div id="buy-back">
+      <h1>Ready to Buy</h1>
+      <h2>Step1</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus porro fugiat, eveniet at, quos illo deleniti commodi similique minima voluptatum eligendi architecto! Modi eos quaerat repellendus excepturi magnam laborum placeat?</p>
+      
+      <h2>Step2</h2>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati dolorum assumenda accusantium illum, rem veniam eius, officiis quo cumque suscipit cum animi explicabo excepturi beatae dignissimos delectus quod quae sint.</p>
+
       </div>
-      <div id="form-x">
-        <form class="form" method="post" action=''>
-          <header style="font-size: 25px; font-weight: bolder;">All Questions Real Estate</header>
+      <div class="buy-form">
+        <form id="buy-form" method="post" action=''>
             <fieldset>
-              <label for="name">Enter Your Name: <input id="name" name="name" type="text" required /></label>
+              <label for="name">Name:</label>
+               <input id="name" name="name" type="text" required />
               <br>
-              <label for="phone-number">Enter Your Phone Number: <input id="phone-number" name="phone-number" type="phone" required /></label>
+              <label for="phone-number">Phone Number:</label>
+               <input id="phone-number" name="phone-number" type="phone" required />
               <br>
-              <label for="email">Enter Your Email: <input id="email" name="email" type="email" required /></label>
+              <label for="email">Email:</label>
+               <input id="email" name="email" type="email" required />
+              <br>
+              <label for="bedrooms">#Bedrooms</label>
+              <input type="number">
+              <br>
+              <label for="bathrooms">#Bathrooms</label>
+              <input type="number">
+              <br>
+              <label for="area">Location</label>
+              <input type="text">
+              <br>
+              <label for="move-date">Moving date:</label>
+               <input id="move-date" type="date">
             </fieldset>
             <fieldset>
-              <legend>Ready to Sell/Buy</legend>
-              <label for="yes"><input id="yes" type="radio"  class="inline" checked /> YES</label>
-              <label for="no"><input id="no" type="radio"  class="inline" /> NO</label>
+              <legend>Have You Been Pre-Approved?</legend>
+              <label for="yes"><input id="yes" type="radio" name="account-type" class="inline" checked /> YES</label>
+              <label for="no"><input id="no" type="radio" name="account-type" class="inline" /> NO</label>
             </fieldset>
             <fieldset>
-              <label for="referrer">Choose from the following:
+              <label for="pre-approval">Upload your pre-approval: <input id="pre-approval" type="file" name="file" /></label>
+              <br>
+              <br>
+              <label for="referrer">Type of Home
                 <select id="referrer" name="referrer">
                   <option value="">(select one)</option>
-                  <option value="1">I am ready to sell my home</option>
-                  <option value="2">I am ready to purchase a home</option>
-                  <option value="3">Just looking for information</option>
-                  <option value="4">All of the above</option>
+                  <option value="1">Detached</option>
+                  <option value="2">Attached</option>
+                  <option value="3">Condo</option>
+                  <option value="4">Investment</option>
                 </select>
               </label>
               <br>
-              <label for="bio">Please Submit Questions/Comments Here:
-                <textarea id="info" name="info" rows="3" cols="30" placeholder="I am ready to sell what's next..."></textarea>
+              <br>
+              <label for="bio">Your Must Haves:
+                <textarea id="info" name="info" rows="3" cols="30" placeholder="Basement, Garage, yard...."></textarea>
               </label>
             </fieldset>
             <label for="terms-and-conditions">
@@ -77,9 +87,9 @@
             </label>
             <input type="submit" value="Submit" />
           </form>
-      </div>
-      </div>
-    <footer>
+    </div>
+    
+      <footer>
         <div class="foot-container">
           <div class="site-logo"><img src="kale-logo-blue.png" alt="Kale Logo"></div>
           <nav class="bottom-nav">
