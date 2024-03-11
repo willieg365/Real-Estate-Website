@@ -17,10 +17,6 @@ body {
     padding: 0;
 }
 
-form {
-   
-}
-
 .site-container {
     width: auto;
     height: 100%;
@@ -38,39 +34,27 @@ h4 {
     padding: 10px;
 }
 
-.header {
-    border-radius: 5%;
-    width: 100%;
-    height: fit-content;    
-    padding: 0px;
-    margin: 0;
-}
 
 .h-container {
     width: 100%;
-    border-radius: 5%;
+    display: flex;
 }
 
 .site-logo img{
-    width: 80px;
-    float: left;
-    margin: 5px;
-    background-color: aliceblue;
+    width: 70px;
+    background-color: aliceblue; 
 }
 
 .top-nav {
-    border: 1px solid black;
-    margin: 0;
-    padding: 10px 20px;
     width: 100%;
     background-color: #000;
-    border-radius: 2% 2% 0% 0%;
+    padding-top: 18px;
 }
 
 .top-nav ul {
     list-style: none;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     margin: 0;
     padding: 0 5px;
 }
@@ -79,7 +63,6 @@ h4 {
     text-decoration: none;
     font-weight: bold;
     font-size: large;
-    padding: 0 10px;
     color: white;
 }
 
@@ -193,11 +176,12 @@ footer ul {
 
 .foot-container {
     background-color: #000;
+    display: flex;
 }
 
 .bottom-nav {
     width: 100%;
-    padding: 5px 20px;
+    padding-top: 18px;
 }
 
 .bottom-selector {
@@ -205,7 +189,6 @@ footer ul {
     text-decoration: none;
     font-weight: bold;
     font-size: medium;
-    padding: 0 5px;
 }
 
 #bottom span {
@@ -257,16 +240,13 @@ footer ul {
 
 #c-container {
     background-color: var(--purple);
-    width: auto;
     height: fit-content;
-    margin: 0 auto;
     display: flex;
-    padding: 0 5px;
+    padding: 5px 0;
 }
 
 #contact {
     height: fit-content;
-    
     padding: 10px 0;
 }
 
@@ -282,19 +262,16 @@ footer ul {
     font-style: italic;
 }
 
-#form-x {
-     
-}
-
 .form {
-    max-width: 395px;
+    max-width:395px;
+    min-width: 0px;
     text-align: center;
-    
+    overflow: visible;
 }
 
 .form fieldset {
     border: none;
-    margin: 0 auto;
+    min-width: 0px;
 }
 
 /*about*/
@@ -391,14 +368,13 @@ footer ul {
     max-width: 750px;
 }
 .buy-form {
-    margin: 0;
     background-color: var(--purple);
 }
 
 #buy-form {
     background-color: var(--purple);
     max-width: 500px;
-    margin: 0 auto;
+    margin: 1px auto;
 }
 
 #buy-form fieldset {
@@ -406,6 +382,11 @@ footer ul {
     margin: 0 auto;
     align-items: center;
     border: none;
+}
+
+.last-fieldset {
+    min-width: none;
+    padding: 0;
 }
 
 #buy-form label {
