@@ -34,7 +34,6 @@ h4 {
     padding: 10px;
 }
 
-
 .h-container {
     width: 100%;
     display: flex;
@@ -266,12 +265,20 @@ footer ul {
     max-width:395px;
     min-width: 0px;
     text-align: center;
-    overflow: visible;
+    overflow: hidden;
+}
+
+.form input, select, textarea {
+    width: 100%;
+}
+
+#trouble {
+    width: 100%;
 }
 
 .form fieldset {
     border: none;
-    min-width: 0px;
+    min-width:0;
 }
 
 /*about*/
@@ -387,6 +394,13 @@ footer ul {
 .last-fieldset {
     min-width: none;
     padding: 0;
+}
+
+#pre-approval {
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    width: 100%;
 }
 
 #buy-form label {
